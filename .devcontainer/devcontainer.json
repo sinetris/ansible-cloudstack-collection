@@ -1,0 +1,23 @@
+{
+  "name": "Ansible Collections Development",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+  "workspaceFolder": "/collections/ansible_collections/sinetris/cloudstack",
+  "workspaceMount": "source=${localWorkspaceFolder},target=${containerWorkspaceFolder},type=bind",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "redhat.ansible",
+        "TakumiI.markdowntable"
+      ]
+    }
+  },
+  "containerEnv": {
+    "PROJECT_WORKDIR": "${containerWorkspaceFolder}"
+  },
+  "postCreateCommand": [
+    "/bin/sh",
+    "-c",
+    "${containerWorkspaceFolder}/.devcontainer/postCreateCommand.sh"
+  ],
+  "remoteUser": "vscode"
+}

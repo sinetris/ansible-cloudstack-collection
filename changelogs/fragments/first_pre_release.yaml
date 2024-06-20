@@ -1,0 +1,4 @@
+release_summary: First draft of the sinetris.cloudstack ansible collection
+add object.role:
+  - name: depoloy
+    description: Role to manage Apache CloudStack infrastructure

@@ -1,0 +1,21 @@
+namespace: "sinetris"
+name: "cloudstack"
+version: 0.1.0
+readme: README.md
+authors:
+  - Duilio Ruggiero <duilio@sinetris.info>
+description: Ansible Collection to manage Apache CloudStack infrastructure
+license_file: LICENSE
+tags:
+  - cloud
+  - infrastructure
+  - cloudstack
+  - virtualization
+dependencies: {}
+repository: https://github.com/sinetris/ansible-cloudstack-collection
+documentation: https://github.com/sinetris/ansible-cloudstack-collection
+homepage: https://github.com/sinetris/ansible-cloudstack-collection
+issues: https://github.com/sinetris/ansible-cloudstack-collection/issues
+build_ignore:
+  - .gitignore
+  - changelogs/.plugin-cache.yaml
