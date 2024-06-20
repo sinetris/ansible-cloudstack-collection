@@ -1,0 +1,7 @@
+edit_on_github:
+  repository: sinetris/ansible-cloudstack-collection
+  branch: main
+  path_prefix: ""
+extra_links:
+  - description: Author
+    url: https://github.com/sinetris
