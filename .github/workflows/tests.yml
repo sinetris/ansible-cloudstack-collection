@@ -38,4 +38,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: >-
-          python -c "assert 'failure' not in set([ '${{ needs.changelog.result }}', '${{ needs.sanity.result }}', '${{ needs.unit-galaxy.result }}' '${{ needs.ansible-lint.result }}' '${{ needs.unit-source.result }}' ])"
+          python -c "assert 'failure' not in set([
+            '${{ needs.changelog.result }}',
+            '${{ needs.sanity.result }}',
+            '${{ needs.unit-galaxy.result }}'
+            '${{ needs.ansible-lint.result }}'
+            '${{ needs.unit-source.result }}'
+          ])"
