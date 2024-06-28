@@ -10,7 +10,7 @@ git config --global --add safe.directory '*'
 cp "${PROJECT_WORKDIR}/.devcontainer/assets/.gitignore_global" ~/.gitignore_global
 
 pip install --upgrade pip
-cd "${PROJECT_WORKDIR}" && pip install -r requirements-dev.txt
+cd "${PROJECT_WORKDIR}" && pip install -r dev-requirements.txt
 
 # To run 'tox' on multiple Python versions we will use 'pyenv' and 'pyenv-virtualenv'.
 

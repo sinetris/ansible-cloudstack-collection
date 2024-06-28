@@ -1,4 +1,4 @@
--r requirements-test.txt
+-r test-requirements.txt
 
 pre-commit
 ansible-dev-tools
